@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/13/20||20:47:27" using="Simscape Multibody Link Version 7.0" from="SolidWorks 25.2.0"/>
+<ModelUnits mass="kilogram" length="meter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AUV" uid="AUV" version="631">
+<AssemblyFile name="AUV.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="AUVBody^AUV-1" uid="AUVBody^AUV-1" grounded="true" entityUid="AUVBody^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="BowVerThrusterTunnel^AUVBody_AUV-1" uid="BowVerThrusterTunnel^AUVBody_AUV-1" entityUid="BowVerThrusterTunnel^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV-1" uid="BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV-1" entityUid="BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub-2" uid="Tunnel_Thruster_Prop_Hub-2" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0 -0.010723637252151301 -0.38500000006830298</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-1" uid="Tunnel_Thruster_Washer-1" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 -0.031185377369782101 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub-1" uid="Tunnel_Thruster_Prop_Hub-1" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 1 0 1 0 0 0 0 -1</Rotation>
+<Translation>0 0.010723637252151301 -0.38499999982650396</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-1" uid="Tunnel_Thruster_Shoulder_Bolt-1" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0 -0.052334183579346279 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-2" uid="Tunnel_Thruster_Shoulder_Bolt-2" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0.052334183579346182 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-2" uid="Tunnel_Thruster_Washer-2" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0.051275148168721911 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Mount-1" uid="Tunnel_Thruster_Prop_Mount-1" entityUid="Tunnel_Thruster_Prop_Mount*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0 -0.040000000000000001 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bow_Vertical_Thruster_Tunnel-1" uid="Bow_Vertical_Thruster_Tunnel-1" entityUid="Bow_Vertical_Thruster_Tunnel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SternVerThrusterTunnel^AUVBody_AUV-1" uid="SternVerThrusterTunnel^AUVBody_AUV-1" entityUid="SternVerThrusterTunnel^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV-1" uid="SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV-1" entityUid="SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub-1" uid="Tunnel_Thruster_Prop_Hub-1" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0 0.010723637252151301 -1.2650000001735</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-1" uid="Tunnel_Thruster_Shoulder_Bolt-1" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>0 -0.052334183579346279 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-1" uid="Tunnel_Thruster_Washer-1" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 -0.031185377369782101 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-2" uid="Tunnel_Thruster_Washer-2" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0.051275148168721911 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Mount-1" uid="Tunnel_Thruster_Prop_Mount-1" entityUid="Tunnel_Thruster_Prop_Mount*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0 -0.040000000000000001 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub-2" uid="Tunnel_Thruster_Prop_Hub-2" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>0 -0.010723637252151301 -1.2649999999317001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-2" uid="Tunnel_Thruster_Shoulder_Bolt-2" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0.052334183579346182 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Stern_Vertical_Thruster_Tunnel-1" uid="Stern_Vertical_Thruster_Tunnel-1" entityUid="Stern_Vertical_Thruster_Tunnel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BowHullCap^AUVBody_AUV-1" uid="BowHullCap^AUVBody_AUV-1" entityUid="BowHullCap^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="FCamera-3" uid="FCamera-3" entityUid="FCamera*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>0 0 0.01</Translation>
+</Transform>
+</Instance>
+<Instance name="Bow_Sensors-1" uid="Bow_Sensors-1" entityUid="Bow_Sensors*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.86602540378443815 0.500000000000001 0 -0.500000000000001 0.86602540378443815</Rotation>
+<Translation>0 -0.14644434023445796 -0.0587777450805404</Translation>
+</Transform>
+</Instance>
+<Instance name="Bow_Hull_Cap-1" uid="Bow_Hull_Cap-1" entityUid="Bow_Hull_Cap*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="MainHull^AUVBody_AUV-1" uid="MainHull^AUVBody_AUV-1" entityUid="MainHull^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="DVL-1" uid="DVL-1" entityUid="DVL*:*Default">
+<Transform>
+<Rotation>-0.70710678118654891 0 0.70710678118654591 0 -1 0 0.70710678118654591 0 0.70710678118654891</Rotation>
+<Translation>0 0 -0.56300000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Hull-1" uid="Main_Hull-1" entityUid="Main_Hull*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectronicBoards^MainHull_AUVBody_AUV-1" uid="ElectronicBoards^MainHull_AUVBody_AUV-1" entityUid="ElectronicBoards^MainHull_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="CPU-1" uid="CPU-1" entityUid="CPU*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0 0.029221029839412199 -0.51800000000000102</Translation>
+</Transform>
+</Instance>
+<Instance name="Serial_Card-1" uid="Serial_Card-1" entityUid="Serial_Card*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 0.046221029839412099 -0.51800000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="IMU-1" uid="IMU-1" entityUid="IMU*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 0.012221029839412201 -0.51800000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Electronics_Stand-1" uid="Electronics_Stand-1" entityUid="Electronics_Stand*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0 0.012221029839412201 -0.51800000000000002</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GPS_Receiver-1" uid="GPS_Receiver-1" entityUid="GPS_Receiver*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.16277009169652695 -0.93000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="StarboardMotor^MainHull_AUVBody_AUV-1" uid="StarboardMotor^MainHull_AUVBody_AUV-1" entityUid="StarboardMotor^MainHull_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Main_Prop_Nozzle-1" uid="Main_Prop_Nozzle-1" entityUid="Main_Prop_Nozzle*:*Default">
+<Transform>
+<Rotation>0 0.75079883213968512 0.66053093315732381 0 0.66053093315732381 -0.75079883213968512 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.01063635428379</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Connector_Body-1" uid="Motor_Connector_Body-1" entityUid="Motor_Connector_Body*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -0.89300249999999892</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Washer-1" uid="Main_Prop_Washer-1" entityUid="Main_Prop_Washer*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0961016843415201</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Shoulder_Bolt-1" uid="Main_Prop_Shoulder_Bolt-1" entityUid="Main_Prop_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0961016843415201</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Gear_Housing-1" uid="Motor_Gear_Housing-1" entityUid="Motor_Gear_Housing*:*Default">
+<Transform>
+<Rotation>0 0.75079883213968512 0.66053093315732381 0 0.66053093315732381 -0.75079883213968512 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.01430179894205</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-2" uid="Main_Prop_Nozzle_Strut-2" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>0.092524284385722716 0.97989975840488297 0.17673630152563957 0.45828513885377392 0.11567071418430115 -0.88124628645224412 -0.88397623740951714 0.16253230250674972 -0.43837114678907335</Rotation>
+<Translation>-0.21841099083481999 -0.14823103266807697 -1.00451931588952</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-3" uid="Main_Prop_Nozzle_Strut-3" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>0.35062443023138479 -0.38977610224494719 -0.85154982182116234 -0.30927095017189787 -0.90645344103301362 0.28756501633401182 -0.88397623740951781 0.16253230250674944 -0.43837114678907219</Rotation>
+<Translation>-0.24155524567700801 -0.12192389301119901 -1.00451931588952</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Connector_Molding-1" uid="Motor_Connector_Molding-1" entityUid="Motor_Connector_Molding*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -0.87204749999999887</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Housing_Endbell-1" uid="Motor_Housing_Endbell-1" entityUid="Motor_Housing_Endbell*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -0.86601499999999798</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Membrane_Seal-1" uid="Motor_Membrane_Seal-1" entityUid="Motor_Membrane_Seal*:*Default">
+<Transform>
+<Rotation>0 -0.19663715202984103 0.98047632834331788 0 0.98047632834331788 0.19663715202984103 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.00684054894205</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-1" uid="Main_Prop_Nozzle_Strut-1" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>-0.44314871461710686 -0.59012365615993601 0.67481352029552255 -0.14901418868187499 0.79078272684871176 0.59368127011823291 -0.88397623740951792 0.1625323025067491 -0.43837114678907196</Rotation>
+<Translation>-0.20720046701215303 -0.11503395019464301 -1.00451931588952</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Housing-1" uid="Motor_Housing-1" entityUid="Motor_Housing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -0.98729999999999996</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Camera-1" uid="Camera-1" entityUid="Camera*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0 -0.050361541071658092 -0.70646444505975803</Translation>
+</Transform>
+</Instance>
+<Instance name="PortMotor^MainHull_AUVBody_AUV-1" uid="PortMotor^MainHull_AUVBody_AUV-1" entityUid="PortMotor^MainHull_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Motor_Housing_Endbell-1" uid="Motor_Housing_Endbell-1" entityUid="Motor_Housing_Endbell*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -0.86621343749999902</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle-1" uid="Main_Prop_Nozzle-1" entityUid="Main_Prop_Nozzle*:*Default">
+<Transform>
+<Rotation>0 0.75079883213968512 0.66053093315732381 0 0.66053093315732381 -0.75079883213968512 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0108347917837899</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Membrane_Seal-1" uid="Motor_Membrane_Seal-1" entityUid="Motor_Membrane_Seal*:*Default">
+<Transform>
+<Rotation>0 -0.19663715202984103 0.98047632834331788 0 0.98047632834331788 0.19663715202984103 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0070389864420501</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-1" uid="Main_Prop_Nozzle_Strut-1" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>-0.44314871461710686 -0.59012365615993601 0.67481352029552255 -0.14901418868187499 0.79078272684871176 0.59368127011823291 -0.88397623740951792 0.1625323025067491 -0.43837114678907196</Rotation>
+<Translation>0.23757733533716799 -0.11503395019464301 -1.00471775338952</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-2" uid="Main_Prop_Nozzle_Strut-2" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>0.092524284385722716 0.97989975840488297 0.17673630152563957 0.45828513885377392 0.11567071418430115 -0.88124628645224412 -0.88397623740951714 0.16253230250674972 -0.43837114678907335</Rotation>
+<Translation>0.2263668115145 -0.14823103266807697 -1.00471775338952</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Nozzle_Strut-3" uid="Main_Prop_Nozzle_Strut-3" entityUid="Main_Prop_Nozzle_Strut*:*Default">
+<Transform>
+<Rotation>0.35062443023138479 -0.38977610224494719 -0.85154982182116234 -0.30927095017189787 -0.90645344103301362 0.28756501633401182 -0.88397623740951781 0.16253230250674944 -0.43837114678907219</Rotation>
+<Translation>0.20322255667231301 -0.12192389301119901 -1.00471775338952</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Gear_Housing-1" uid="Motor_Gear_Housing-1" entityUid="Motor_Gear_Housing*:*Default">
+<Transform>
+<Rotation>0 0.75079883213968512 0.66053093315732381 0 0.66053093315732381 -0.75079883213968512 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0145002364420499</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Connector_Body-1" uid="Motor_Connector_Body-1" entityUid="Motor_Connector_Body*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -0.89320093749999896</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Washer-1" uid="Main_Prop_Washer-1" entityUid="Main_Prop_Washer*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.09630012184152</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Housing-1" uid="Motor_Housing-1" entityUid="Motor_Housing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -0.9874984375000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Shoulder_Bolt-1" uid="Main_Prop_Shoulder_Bolt-1" entityUid="Main_Prop_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.09630012184152</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor_Connector_Molding-1" uid="Motor_Connector_Molding-1" entityUid="Motor_Connector_Molding*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -0.87224593749999901</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Main_Hull_Bottom_Strip-1" uid="Main_Hull_Bottom_Strip-1" entityUid="Main_Hull_Bottom_Strip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Side_Scanner_Sonar-1" uid="Side_Scanner_Sonar-1" entityUid="Side_Scanner_Sonar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.14599999999999999 0 -0.65628917005806631</Translation>
+</Transform>
+</Instance>
+<Instance name="Side_Scanner_Sonar-2" uid="Side_Scanner_Sonar-2" entityUid="Side_Scanner_Sonar*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.14599999999999999 0 -0.65628917005806631</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SternHorThrusterTunnel^AUVBody_AUV-1" uid="SternHorThrusterTunnel^AUVBody_AUV-1" entityUid="SternHorThrusterTunnel^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Stern_Horizontal_Thruster_Tunnel-1" uid="Stern_Horizontal_Thruster_Tunnel-1" entityUid="Stern_Horizontal_Thruster_Tunnel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV-1" uid="SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV-1" entityUid="SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub-1" uid="Tunnel_Thruster_Prop_Hub-1" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.010723637252151301 0 -1.4049999998265001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-2" uid="Tunnel_Thruster_Shoulder_Bolt-2" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.052334183579346182 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub-2" uid="Tunnel_Thruster_Prop_Hub-2" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.010723637252151301 0 -1.4050000000682998</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-2" uid="Tunnel_Thruster_Washer-2" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.051275148168721911 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-1" uid="Tunnel_Thruster_Shoulder_Bolt-1" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.052334183579346279 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-1" uid="Tunnel_Thruster_Washer-1" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.031185377369782101 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Mount-1" uid="Tunnel_Thruster_Prop_Mount-1" entityUid="Tunnel_Thruster_Prop_Mount*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.040000000000000001 0 -1.405</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="BowHorThrusterTunnel^AUVBody_AUV-1" uid="BowHorThrusterTunnel^AUVBody_AUV-1" entityUid="BowHorThrusterTunnel^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Bow_Horizontal_Thruster_Tunnel-1" uid="Bow_Horizontal_Thruster_Tunnel-1" entityUid="Bow_Horizontal_Thruster_Tunnel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Altimeter-1" uid="Altimeter-1" entityUid="Altimeter*:*Default">
+<Transform>
+<Rotation>0.79988771761927413 0 0.60014968066460617 0 1 0 -0.60014968066460617 0 0.79988771761927413</Rotation>
+<Translation>-0.044499999999999998 -0.097500000000000003 -0.12350186398917504</Translation>
+</Transform>
+</Instance>
+<Instance name="Depth_Sensor-1" uid="Depth_Sensor-1" entityUid="Depth_Sensor*:*Default">
+<Transform>
+<Rotation>0.87794299230033279 0 -0.4787651848983358 0 1 0 0.4787651848983358 0 0.87794299230033279</Rotation>
+<Translation>0.040000000000000001 -0.097500000000000003 -0.1235</Translation>
+</Transform>
+</Instance>
+<Instance name="BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV-1" uid="BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV-1" entityUid="BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-2" uid="Tunnel_Thruster_Shoulder_Bolt-2" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.052334183579346182 0 -0.245</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-2" uid="Tunnel_Thruster_Washer-2" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.051275148168721911 0 -0.245</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Washer-1" uid="Tunnel_Thruster_Washer-1" entityUid="Tunnel_Thruster_Washer*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.031185377369782101 0 -0.245</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub-2" uid="Tunnel_Thruster_Prop_Hub-2" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.010723637252151301 0 -0.245000000068303</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Mount-1" uid="Tunnel_Thruster_Prop_Mount-1" entityUid="Tunnel_Thruster_Prop_Mount*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.040000000000000001 0 -0.245</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub-1" uid="Tunnel_Thruster_Prop_Hub-1" entityUid="Tunnel_Thruster_Prop_Hub*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>0.010723637252151301 0 -0.244999999826504</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Shoulder_Bolt-1" uid="Tunnel_Thruster_Shoulder_Bolt-1" entityUid="Tunnel_Thruster_Shoulder_Bolt*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.052334183579346279 0 -0.245</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="SternHullCap^AUVBody_AUV-1" uid="SternHullCap^AUVBody_AUV-1" entityUid="SternHullCap^AUVBody_AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Stern_Hull_Cap-1" uid="Stern_Hull_Cap-1" entityUid="Stern_Hull_Cap*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Comms_Modem-1" uid="Comms_Modem-1" entityUid="Comms_Modem*:*Default">
+<Transform>
+<Rotation>0.48757095276150603 0 0.87308336716675394 -0.87308336716675394 0 0.48757095276150603 0 -1 0</Rotation>
+<Translation>0 0 -1.6656262266807902</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="PortProp^AUV-2" uid="PortProp^AUV-2" entityUid="PortProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Main_Prop_Hub_Bearing-1" uid="Main_Prop_Hub_Bearing-1" entityUid="Main_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0994322707835602</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop-1" uid="Main_Prop-1" entityUid="Main_Prop*:*Default">
+<Transform>
+<Rotation>0.28471518220795394 -0.95861215568147873 0 0.95861215568147873 0.28471518220795394 0 0 0 1</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0168608375000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Driven_Hub-1" uid="Main_Prop_Driven_Hub-1" entityUid="Main_Prop_Driven_Hub*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0135270875</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Hub-1" uid="Main_Prop_Hub-1" entityUid="Main_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.0524208375000002</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Bearing-1" uid="Main_Prop_Bearing-1" entityUid="Main_Prop_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.22238890117466004 -0.12839629195797306 -1.00894398644205</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="StarboardProp^AUV-2" uid="StarboardProp^AUV-2" entityUid="StarboardProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Main_Prop_Hub-1" uid="Main_Prop_Hub-1" entityUid="Main_Prop_Hub*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0522224</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Hub_Bearing-1" uid="Main_Prop_Hub_Bearing-1" entityUid="Main_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0992338332835601</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop-1" uid="Main_Prop-1" entityUid="Main_Prop*:*Default">
+<Transform>
+<Rotation>0.28471518220795394 -0.95861215568147873 0 0.95861215568147873 0.28471518220795394 0 0 0 1</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0166624</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Driven_Hub-1" uid="Main_Prop_Driven_Hub-1" entityUid="Main_Prop_Driven_Hub*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.0133286500000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Main_Prop_Bearing-1" uid="Main_Prop_Bearing-1" entityUid="Main_Prop_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.22238890117466004 -0.12839629195797306 -1.00874554894205</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BowHorThrusterProp^AUV-1" uid="BowHorThrusterProp^AUV-1" entityUid="BowHorThrusterProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-1" uid="Tunnel_Thruster_Prop_Hub_Bearing-1" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.055374081285427694 0 -0.245</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop-1" uid="Tunnel_Thruster_Prop-1" entityUid="Tunnel_Thruster_Prop*:*Default">
+<Transform>
+<Rotation>0 0 1 0.18359229064284904 0.98300247752307912 0 -0.98300247752307912 0.18359229064284904 0</Rotation>
+<Translation>0.017354795265638802 0 -0.245000072040926</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-2" uid="Tunnel_Thruster_Prop_Hub_Bearing-2" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.055374081285427694 0 -0.245</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="BowVerThrusterProp^AUV-1" uid="BowVerThrusterProp^AUV-1" entityUid="BowVerThrusterProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop-1" uid="Tunnel_Thruster_Prop-1" entityUid="Tunnel_Thruster_Prop*:*Default">
+<Transform>
+<Rotation>-0.18359229064284904 -0.98300247752307912 0 0 0 1 -0.98300247752307912 0.18359229064284904 0</Rotation>
+<Translation>0 0.017354795265638802 -0.38500007204092601</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-1" uid="Tunnel_Thruster_Prop_Hub_Bearing-1" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 -1 0 0 0 -1 0</Rotation>
+<Translation>0 -0.055374081285427694 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-2" uid="Tunnel_Thruster_Prop_Hub_Bearing-2" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0 0.055374081285427694 -0.38500000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SternHorThrusterProp^AUV-1" uid="SternHorThrusterProp^AUV-1" entityUid="SternHorThrusterProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-2" uid="Tunnel_Thruster_Prop_Hub_Bearing-2" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.055374081285427694 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-1" uid="Tunnel_Thruster_Prop_Hub_Bearing-1" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.055374081285427694 0 -1.405</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop-1" uid="Tunnel_Thruster_Prop-1" entityUid="Tunnel_Thruster_Prop*:*Default">
+<Transform>
+<Rotation>0 0 1 0.18359229064284904 0.98300247752307912 0 -0.98300247752307912 0.18359229064284904 0</Rotation>
+<Translation>0.017354795265638802 0 -1.4050000720409301</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SternVerThrusterProp^AUV-1" uid="SternVerThrusterProp^AUV-1" entityUid="SternVerThrusterProp^AUV" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-1" uid="Tunnel_Thruster_Prop_Hub_Bearing-1" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>0 -0.055374081285427694 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop-1" uid="Tunnel_Thruster_Prop-1" entityUid="Tunnel_Thruster_Prop*:*Default">
+<Transform>
+<Rotation>0.18359229064284904 0.98300247752307912 0 0 0 1 0.98300247752307912 -0.18359229064284904 0</Rotation>
+<Translation>0 0.017354795265638802 -1.26499992795907</Translation>
+</Transform>
+</Instance>
+<Instance name="Tunnel_Thruster_Prop_Hub_Bearing-2" uid="Tunnel_Thruster_Prop_Hub_Bearing-2" entityUid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0.055374081285427694 -1.2650000000000001</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>MainHull^AUVBody_AUV-1</Uid>
+<Uid>PortMotor^MainHull_AUVBody_AUV-1</Uid>
+<Uid>Motor_Membrane_Seal-1</Uid>
+</InstancePath>
+<Position>0.0019050000000000455 -0.018507456000000005 0.018507456000000033</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PortProp^AUV-2</Uid>
+<Uid>Main_Prop_Bearing-1</Uid>
+</InstancePath>
+<Position>0 -0.019278600000000007 -0.019278600000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>MainHull^AUVBody_AUV-1</Uid>
+<Uid>PortMotor^MainHull_AUVBody_AUV-1</Uid>
+<Uid>Motor_Membrane_Seal-1</Uid>
+</InstancePath>
+<Position>0.0019050000000000455 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PortProp^AUV-2</Uid>
+<Uid>Main_Prop_Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>MainHull^AUVBody_AUV-1</Uid>
+<Uid>StarboardMotor^MainHull_AUVBody_AUV-1</Uid>
+<Uid>Motor_Membrane_Seal-1</Uid>
+</InstancePath>
+<Position>0.0019050000000000455 -0.018507456000000005 0.018507456000000005</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>StarboardProp^AUV-2</Uid>
+<Uid>Main_Prop_Bearing-1</Uid>
+</InstancePath>
+<Position>0 -0.019278600000000007 -0.019278600000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>MainHull^AUVBody_AUV-1</Uid>
+<Uid>StarboardMotor^MainHull_AUVBody_AUV-1</Uid>
+<Uid>Motor_Membrane_Seal-1</Uid>
+</InstancePath>
+<Position>0.0019050000000000455 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>StarboardProp^AUV-2</Uid>
+<Uid>Main_Prop_Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>BowHorThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -0.015297333404999999 -0.015297333162999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BowHorThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-0.015194737927000018 -0.015194655814999999 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>BowHorThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -6.7999999999999998e-11 1.7300000321185394e-10</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BowHorThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-7.1260000011896807e-08 1.0852000000005635e-08 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>BowVerThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -0.015297333404999999 -0.015297333163000026</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BowVerThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-0.01519473792699999 -0.015194655815000013 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>BowVerThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -6.7999999999999998e-11 1.7300000321185394e-10</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BowVerThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-7.1260000011896807e-08 1.0851999993066741e-08 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>SternVerThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -0.015297333404999999 -0.015297333162999971</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SternVerThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-0.015194737927000102 -0.015194655814999986 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>SternVerThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -6.7999999999999998e-11 1.7300005872300517e-10</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SternVerThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-7.1260000344963714e-08 1.0852000020822317e-08 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>SternHorThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -0.015297333404999999 -0.015297333162999971</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SternHorThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-0.015194737926999879 -0.015194655815000013 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>AUVBody^AUV-1</Uid>
+<Uid>SternHorThrusterTunnel^AUVBody_AUV-1</Uid>
+<Uid>SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop_Hub-1</Uid>
+</InstancePath>
+<Position>0.0034792612989999992 -6.7999999999999998e-11 1.7300005872300517e-10</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>SternHorThrusterProp^AUV-1</Uid>
+<Uid>Tunnel_Thruster_Prop-1</Uid>
+</InstancePath>
+<Position>-7.1260000122919109e-08 1.0852000076333468e-08 -0.0031518967149999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="AUVBody^AUV" uid="AUVBody^AUV" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowVerThrusterTunnel^AUVBody_AUV" uid="BowVerThrusterTunnel^AUVBody_AUV" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV" uid="BowVerThrusterPropMount^BowVerThrusterTunnel_AUVBody_AUV" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="BowVerThrusterTunnel_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternVerThrusterTunnel^AUVBody_AUV" uid="SternVerThrusterTunnel^AUVBody_AUV" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV" uid="SternVerThrusterPropMount^SternVerThrusterTunnel_AUVBody_AUV" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SternVerThrusterTunnel_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowHullCap^AUVBody_AUV" uid="BowHullCap^AUVBody_AUV" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MainHull^AUVBody_AUV" uid="MainHull^AUVBody_AUV" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="ElectronicBoards^MainHull_AUVBody_AUV" uid="ElectronicBoards^MainHull_AUVBody_AUV" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MainHull_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="StarboardMotor^MainHull_AUVBody_AUV" uid="StarboardMotor^MainHull_AUVBody_AUV" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MainHull_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PortMotor^MainHull_AUVBody_AUV" uid="PortMotor^MainHull_AUVBody_AUV" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MainHull_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternHorThrusterTunnel^AUVBody_AUV" uid="SternHorThrusterTunnel^AUVBody_AUV" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV" uid="SternHorThrusterPropMount^SternHorThrusterTunnel_AUVBody_AUV" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SternHorThrusterTunnel_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowHorThrusterTunnel^AUVBody_AUV" uid="BowHorThrusterTunnel^AUVBody_AUV" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV" uid="BowHorThrusterPropMount^BowHorThrusterTunnel_AUVBody_AUV" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="BowHorThrusterTunnel_AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternHullCap^AUVBody_AUV" uid="SternHullCap^AUVBody_AUV" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUVBody_AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="PortProp^AUV" uid="PortProp^AUV" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="StarboardProp^AUV" uid="StarboardProp^AUV" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowHorThrusterProp^AUV" uid="BowHorThrusterProp^AUV" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="BowVerThrusterProp^AUV" uid="BowVerThrusterProp^AUV" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternHorThrusterProp^AUV" uid="SternHorThrusterProp^AUV" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SternVerThrusterProp^AUV" uid="SternVerThrusterProp^AUV" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="AUV.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Altimeter" uid="Altimeter*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Altimeter.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26517092956895616</Mass>
+<CenterOfMass>-3.0503496871985901e-15 0.09092165987182306 1.3082372580826359e-14</CenterOfMass>
+<Inertia>0.00082654535540900164 7.0646170104811287e-05 0.0008265453554090334 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Altimeter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bow_Horizontal_Thruster_Tunnel" uid="Bow_Horizontal_Thruster_Tunnel*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bow_Horizontal_Thruster_Tunnel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.00854075492763</Mass>
+<CenterOfMass>-3.5622566712260851e-05 4.2802136448883401e-07 -0.22795608464021111</CenterOfMass>
+<Inertia>0.098266684903467336 0.084203906672607895 0.13410200146244472 5.1200536032811218e-08 4.9424014965692097e-05 -1.9770888951692624e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Bow_Horizontal_Thruster_Tunnel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bow_Hull_Cap" uid="Bow_Hull_Cap*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bow_Hull_Cap.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.0222286202460218</Mass>
+<CenterOfMass>-1.1707124016628362e-06 -3.6083578800075186e-07 -0.082583388433686913</CenterOfMass>
+<Inertia>0.049482136453806461 0.049472186011079743 0.067044944089543729 -1.0210050649914395e-07 -6.1340139777086932e-08 -1.7592085501967898e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Bow_Hull_Cap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bow_Sensors" uid="Bow_Sensors*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bow_Sensors.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1861535451804078</Mass>
+<CenterOfMass>-4.5541122423025515e-08 0.030907768691635445 0.040414517548747829</CenterOfMass>
+<Inertia>0.00022308895048489522 0.00034051320019107419 0.00022308756253622232 -5.18222160923794e-12 1.9178315236763463e-10 -1.7279329870118845e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Bow_Sensors_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Specular r="0.0039215686274509803" g="0.25686274509803919" b="0.40784313725490196" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bow_Vertical_Thruster_Tunnel" uid="Bow_Vertical_Thruster_Tunnel*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bow_Vertical_Thruster_Tunnel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.882410805201051</Mass>
+<CenterOfMass>3.5969087495216855e-09 -3.2724936673016952e-13 -0.36901780781232291</CenterOfMass>
+<Inertia>0.082593886383866222 0.096934906598604015 0.13381480301386781 -1.1137300804614572e-13 3.9854703556929655e-09 -4.9544850954856019e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Bow_Vertical_Thruster_Tunnel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CPU" uid="CPU*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CPU.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.03481742919733552</Mass>
+<CenterOfMass>0.0077100614234913963 0.0036680301249345714 0.00025370786142048143</CenterOfMass>
+<Inertia>2.2173218647047858e-05 4.4442539545467798e-05 2.3175633083340438e-05 -4.027323519180607e-09 1.3802372179989926e-07 -1.4391914797236787e-06</Inertia>
+</MassProperties>
+<GeometryFile name="CPU_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Camera" uid="Camera*:*Default" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Camera.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0438498322580128</Mass>
+<CenterOfMass>0 -1.0340530139821275e-12 0.023706520689134172</CenterOfMass>
+<Inertia>0.0030652817277286872 0.0027073779205256765 0.001548559715383797 3.6815067756924826e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Camera_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Specular r="0.0039215686274509803" g="0.25686274509803919" b="0.40784313725490196" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Comms_Modem" uid="Comms_Modem*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Comms_Modem.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2309940186066282</Mass>
+<CenterOfMass>4.7059870688582224e-08 -0.041900711305937012 -1.0128633784437781e-09</CenterOfMass>
+<Inertia>0.012282038028471382 0.0039487540844780136 0.01228229859400754 -9.3490176917456988e-10 5.8387688018511964e-09 -1.1880854917266332e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Comms_Modem_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DVL" uid="DVL*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DVL.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4214488547528839</Mass>
+<CenterOfMass>-3.8880159943996729e-14 0.082400825513355452 0</CenterOfMass>
+<Inertia>0.0048106210872141154 0.0023050229355281154 0.0048106210968273822 0 1.7798133162503696e-12 3.5943970177451152e-15</Inertia>
+</MassProperties>
+<GeometryFile name="DVL_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Depth_Sensor" uid="Depth_Sensor*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Depth_Sensor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16782582552926961</Mass>
+<CenterOfMass>0 0.08305021667203584 0</CenterOfMass>
+<Inertia>0.00042091837226619503 3.1266801405518134e-05 0.00042091837226623655 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Depth_Sensor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Electronics_Stand" uid="Electronics_Stand*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Electronics_Stand.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.025598599970484543</Mass>
+<CenterOfMass>8.6457563735417315e-12 0.010810134135645704 -0.0013746845422621143</CenterOfMass>
+<Inertia>3.0334813352661682e-05 5.6926367727064738e-05 4.2578886488324674e-05 4.8174637521226335e-07 -5.9488143071857661e-15 -2.4255225039382965e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Electronics_Stand_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FCamera" uid="FCamera*:*Default" version="316">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FCamera.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0093183111220818456</Mass>
+<CenterOfMass>-3.3514895589743802e-12 -8.0460489948965227e-05 0.032795200364138424</CenterOfMass>
+<Inertia>8.5014804724399042e-06 8.4542716890053005e-06 2.9895711476300631e-06 1.0953725059419643e-08 1.5729301838572341e-14 -6.1438169439298421e-14</Inertia>
+</MassProperties>
+<GeometryFile name="FCamera_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Specular r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GPS_Receiver" uid="GPS_Receiver*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GPS_Receiver.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.061085406392353672</Mass>
+<CenterOfMass>3.3260403884837945e-13 0.036844151312404087 1.3490445035963107e-14</CenterOfMass>
+<Inertia>2.4519983373604989e-05 2.2048601516309801e-05 2.4520399247259767e-05 0 7.9447775431432834e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="GPS_Receiver_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="IMU" uid="IMU*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="IMU.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0079723356015773961</Mass>
+<CenterOfMass>3.2542611131999921e-08 0.0043740055179193223 -0.0023915023756024378</CenterOfMass>
+<Inertia>7.0992491729588358e-07 1.3877880737779904e-06 7.8590829885865625e-07 7.303442417104002e-09 4.0099988709267112e-10 6.9312758415783774e-14</Inertia>
+</MassProperties>
+<GeometryFile name="IMU_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Hull" uid="Main_Hull*:*Default" version="150">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Main_Hull.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>27.341280981674718</Mass>
+<CenterOfMass>-0.00030152281263552802 -0.00057492233499713806 -0.78450020685843935</CenterOfMass>
+<Inertia>1.6490124216932078 1.6674503572322561 0.506883746468614 -0.0090495357655662814 -0.0018590248350746881 3.3066460264590636e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Hull_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Hull_Bottom_Strip" uid="Main_Hull_Bottom_Strip*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Hull_Bottom_Strip.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05804625361768765</Mass>
+<CenterOfMass>1.5856519162766298e-11 -0.14627298354386326 -0.81000021087483731</CenterOfMass>
+<Inertia>7.8649021783621929e-06 8.0485161041210396e-05 7.5414174855859711e-05 6.429599311419043e-12 -1.9393401090278319e-15 -9.7775121471106693e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Hull_Bottom_Strip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop" uid="Main_Prop*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10275884569134951</Mass>
+<CenterOfMass>2.0686730579990993e-07 -1.8771704152076748e-08 -0.015664941287660692</CenterOfMass>
+<Inertia>3.4758999031740589e-05 3.4759227151058776e-05 5.1070972540813375e-05 1.9078530619513505e-10 2.5354083591685917e-10 3.1035104628041419e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Specular r="0.39215686274509803" g="0.38823529411764707" b="0.37058823529411766" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Bearing" uid="Main_Prop_Bearing*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Bearing.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031915422501606748</Mass>
+<CenterOfMass>0.0032372593297363981 0 0</CenterOfMass>
+<Inertia>8.5531239644093528e-06 4.4115501571443553e-06 4.4115501571443579e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Diffuse r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Specular r="0.28627450980392155" g="0.36078431372549019" b="0.2803921568627451" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Driven_Hub" uid="Main_Prop_Driven_Hub*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Driven_Hub.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10088455224008372</Mass>
+<CenterOfMass>0.018573749999999997 0 0</CenterOfMass>
+<Inertia>2.1896239445625012e-05 2.2531740114591956e-05 2.2531740114591959e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Driven_Hub_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Hub" uid="Main_Prop_Hub*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Hub.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022489111024403801</Mass>
+<CenterOfMass>0.017293520076882566 -1.221122398969629e-09 -2.3156861470281216e-13</CenterOfMass>
+<Inertia>3.9775153704143144e-06 3.4133329663060787e-06 3.4132288061970816e-06 1.5047669916283758e-12 0 -2.15823757894872e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Hub_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Hub_Bearing" uid="Main_Prop_Hub_Bearing*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Hub_Bearing.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0036273327862065027</Mass>
+<CenterOfMass>-0.017982439747405404 0 0</CenterOfMass>
+<Inertia>6.9796170898288492e-08 6.6042324379275044e-08 6.6042324379275057e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Hub_Bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Diffuse r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Specular r="0.28627450980392155" g="0.36078431372549019" b="0.2803921568627451" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Nozzle" uid="Main_Prop_Nozzle*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Nozzle.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.09768168402879332</Mass>
+<CenterOfMass>0.023673824398407824 -7.4465234712515917e-09 9.5655800161813323e-10</CenterOfMass>
+<Inertia>0.0002353589343677729 0.00013877665188015637 0.00013877512113458001 3.8656962996914562e-11 1.3337378887915334e-12 -9.9343526459950729e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Nozzle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.51372549019607838" b="0.81568627450980391" a="1"/>
+<Specular r="0.0039215686274509803" g="0.25686274509803919" b="0.40784313725490196" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Nozzle_Strut" uid="Main_Prop_Nozzle_Strut*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Nozzle_Strut.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00018892405942190941</Mass>
+<CenterOfMass>0 0 0.014401800000000001</CenterOfMass>
+<Inertia>1.3478464868629611e-08 1.3478464868629611e-08 8.3353813920491181e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Nozzle_Strut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Shoulder_Bolt" uid="Main_Prop_Shoulder_Bolt*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Shoulder_Bolt.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0070426031084723359</Mass>
+<CenterOfMass>-0.015308826018242036 0 0</CenterOfMass>
+<Inertia>5.0520225100015441e-08 4.3380645953319402e-07 4.3380645953308745e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Shoulder_Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Specular r="0.39215686274509803" g="0.38823529411764707" b="0.37058823529411766" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Main_Prop_Washer" uid="Main_Prop_Washer*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Main_Prop_Washer.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011111794792426763</Mass>
+<CenterOfMass>-0.010044885399 0 0</CenterOfMass>
+<Inertia>2.8935414213528423e-08 1.4701069265887976e-08 1.4701069265887976e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Main_Prop_Washer_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Connector_Body" uid="Motor_Connector_Body*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Connector_Body.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0054041955208597508</Mass>
+<CenterOfMass>-0.006341408030222301 -3.0493914684829768e-05 -1.8438823925737792e-11</CenterOfMass>
+<Inertia>2.0489996981211323e-07 5.3369784228625857e-07 5.3258144895927416e-07 -1.7547721057798627e-15 -2.4766762401826356e-15 -3.332085448861895e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Connector_Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.56862745098039214" b="0.11372549019607843" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.56862745098039214" b="0.11372549019607843" a="1"/>
+<Specular r="0.39019607843137255" g="0.28431372549019607" b="0.056862745098039215" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Connector_Molding" uid="Motor_Connector_Molding*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Connector_Molding.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014705982887292678</Mass>
+<CenterOfMass>0 -0.00020606014227249095 0.00074577981817840352</CenterOfMass>
+<Inertia>4.0202486400608647e-08 4.2308483978846834e-08 3.872319593378161e-08 1.2595442782351517e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Connector_Molding_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.70588235294117641" g="0.70588235294117641" b="0.70588235294117641" a="1"/>
+<Diffuse r="0.70588235294117641" g="0.70588235294117641" b="0.70588235294117641" a="1"/>
+<Specular r="0.3529411764705882" g="0.3529411764705882" b="0.3529411764705882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Gear_Housing" uid="Motor_Gear_Housing*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Gear_Housing.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18790100674123847</Mass>
+<CenterOfMass>-0.013488282327557216 8.4603687627126396e-09 -2.8684453504912131e-09</CenterOfMass>
+<Inertia>3.5431928274168389e-05 2.4369690140027886e-05 2.4369714245283774e-05 8.6933296456151146e-12 1.8706692096742215e-12 -5.7249636469650598e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Gear_Housing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Housing" uid="Motor_Housing*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Housing.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095861659171638108</Mass>
+<CenterOfMass>-0.031854155482062323 4.7797862285610627e-10 -1.4744506674735456e-10</CenterOfMass>
+<Inertia>2.2555478435519833e-05 6.4258660628595536e-05 6.4258662393493565e-05 1.6639742433036933e-13 1.5564158073683405e-13 -1.5105721436761022e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Housing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Housing_Endbell" uid="Motor_Housing_Endbell*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Housing_Endbell.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0090140753185942845</Mass>
+<CenterOfMass>0.037826259855700053 -2.272933131814774e-13 0</CenterOfMass>
+<Inertia>2.5180865340455405e-06 1.7390061510361041e-06 1.7392335814579892e-06 1.4312378265997038e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Housing_Endbell_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor_Membrane_Seal" uid="Motor_Membrane_Seal*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motor_Membrane_Seal.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18589957835904039</Mass>
+<CenterOfMass>0.02317917199502639 0 0</CenterOfMass>
+<Inertia>1.5582443550819149e-05 4.3537578819944123e-05 4.3537578819941779e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor_Membrane_Seal_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90196078431372551" g="0.72549019607843135" b="0.40000000000000002" a="1"/>
+<Diffuse r="0.90196078431372551" g="0.72549019607843135" b="0.40000000000000002" a="1"/>
+<Specular r="0.45098039215686275" g="0.36274509803921567" b="0.20000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Serial_Card" uid="Serial_Card*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Serial_Card.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026841292686488723</Mass>
+<CenterOfMass>9.1202760932291988e-06 0.0024202262079238558 -0.0051742660097981782</CenterOfMass>
+<Inertia>2.0147905158872425e-05 3.9474273927213847e-05 1.9656170079041728e-05 7.3281687039580049e-07 3.9448226075811629e-09 -3.867286243002494e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Serial_Card_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.75294117647058822" b="0" a="1"/>
+<Diffuse r="0" g="0.75294117647058822" b="0" a="1"/>
+<Specular r="0" g="0.37647058823529411" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Side_Scanner_Sonar" uid="Side_Scanner_Sonar*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Side_Scanner_Sonar.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12984112891530078</Mass>
+<CenterOfMass>-0.00077850271522797736 8.5931113123511655e-13 1.9926260673985655e-12</CenterOfMass>
+<Inertia>0.0012450067985765091 0.0012424879286051362 1.0178532478675373e-05 -2.0041459113313534e-15 0 9.2251156854727654e-16</Inertia>
+</MassProperties>
+<GeometryFile name="Side_Scanner_Sonar_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stern_Horizontal_Thruster_Tunnel" uid="Stern_Horizontal_Thruster_Tunnel*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Stern_Horizontal_Thruster_Tunnel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.595288665028116</Mass>
+<CenterOfMass>2.9303552485580911e-07 -3.5671978776701729e-07 -1.4049999643555107</CenterOfMass>
+<Inertia>0.12358212213148836 0.10924013776504404 0.15372821138742915 -1.1915874680553825e-09 -2.6766209314731679e-07 -1.9991796851446266e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Stern_Horizontal_Thruster_Tunnel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stern_Hull_Cap" uid="Stern_Hull_Cap*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Stern_Hull_Cap.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>12.609380135358888</Mass>
+<CenterOfMass>-1.7581611792825924e-07 -0.00099513563109331223 -1.7147189433139185</CenterOfMass>
+<Inertia>0.37230741588257993 0.37270320882356633 0.17325770449456188 0.00087561407392467382 -1.8429946522061365e-06 1.5062555829451248e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Stern_Hull_Cap_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Stern_Vertical_Thruster_Tunnel" uid="Stern_Vertical_Thruster_Tunnel*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Stern_Vertical_Thruster_Tunnel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.882410804869014</Mass>
+<CenterOfMass>3.5968671695809485e-09 -2.8775555870338083e-13 -1.2490178078136593</CenterOfMass>
+<Inertia>0.082593886382180834 0.096934906595461459 0.13381480301070001 -1.2195047945486807e-13 3.9855031713259211e-09 -4.9544830074112729e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Stern_Vertical_Thruster_Tunnel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Diffuse r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Specular r="1" g="0.92941176470588238" b="0.12941176470588234" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Prop" uid="Tunnel_Thruster_Prop*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Prop.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052378452838935524</Mass>
+<CenterOfMass>1.9333678017055498e-07 -1.5693667568538564e-07 -0.015665207395520304</CenterOfMass>
+<Inertia>1.1306317528600349e-05 1.1306018461757046e-05 1.6612035651752695e-05 -9.8354432205249464e-11 1.5918991241614179e-10 1.7823129778610836e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Prop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Specular r="0.39215686274509803" g="0.38823529411764707" b="0.37058823529411766" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Prop_Hub" uid="Tunnel_Thruster_Prop_Hub*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Prop_Hub.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011463264297079445</Mass>
+<CenterOfMass>0.017293560095162426 -6.7368039066295096e-11 1.7318757306765093e-10</CenterOfMass>
+<Inertia>1.2937134778391073e-06 1.1102088869234703e-06 1.1101753725617455e-06 8.3057643434386778e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Prop_Hub_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Diffuse r="0.32156862745098036" g="0.32156862745098036" b="0.32156862745098036" a="1"/>
+<Specular r="0.16078431372549018" g="0.16078431372549018" b="0.16078431372549018" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Prop_Hub_Bearing" uid="Tunnel_Thruster_Prop_Hub_Bearing*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Prop_Hub_Bearing.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018489411430013202</Mass>
+<CenterOfMass>-0.017982439746531409 0 0</CenterOfMass>
+<Inertia>2.2701666505577092e-08 2.1480703080590702e-08 2.1480703080590695e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Prop_Hub_Bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Diffuse r="0.5725490196078431" g="0.72156862745098038" b="0.5607843137254902" a="1"/>
+<Specular r="0.28627450980392155" g="0.36078431372549019" b="0.2803921568627451" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Prop_Mount" uid="Tunnel_Thruster_Prop_Mount*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Prop_Mount.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.081277314879450779</Mass>
+<CenterOfMass>-1.7315475505180145e-09 0.03999754885637373 5.2645339190275866e-09</CenterOfMass>
+<Inertia>0.00010010226547330915 0.00011363666001195613 0.00010010224312708999 -8.9049315539412456e-12 3.2982141237628092e-14 1.2129746754175401e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Prop_Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.51372549019607838" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.51372549019607838" b="0.93333333333333335" a="1"/>
+<Specular r="0.0039215686274509803" g="0.25686274509803919" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Shoulder_Bolt" uid="Tunnel_Thruster_Shoulder_Bolt*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Shoulder_Bolt.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003589788810244879</Mass>
+<CenterOfMass>-0.015308826018027574 0 0</CenterOfMass>
+<Inertia>1.6432037572588495e-08 1.410984219939816e-07 1.4109842199392911e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Shoulder_Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.78431372549019607" g="0.77647058823529413" b="0.74117647058823533" a="1"/>
+<Specular r="0.39215686274509803" g="0.38823529411764707" b="0.37058823529411766" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tunnel_Thruster_Washer" uid="Tunnel_Thruster_Washer*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tunnel_Thruster_Washer.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00056639563523823162</Mass>
+<CenterOfMass>-0.010044885399500001 0 0</CenterOfMass>
+<Inertia>9.4114349748398264e-09 4.7816200742177439e-09 4.781620074217743e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tunnel_Thruster_Washer_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
