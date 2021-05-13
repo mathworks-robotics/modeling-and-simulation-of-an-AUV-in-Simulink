@@ -1,0 +1,35 @@
+component drag
+% Rotational Drag
+% This block represents an pure ideal mechanical rotational drag. 
+%
+% Connections R and C are mechanical rotational conserving ports, 
+% with R representing the rod, while C is associated with the
+% case. The block positive direction is from port R to port C. 
+
+% Copyright 2020 The MathWorks, Inc.
+
+    nodes
+        R = foundation.mechanical.rotational.rotational; % R:left
+        C = foundation.mechanical.rotational.rotational; % C:right
+    end
+
+    parameters
+        Cd = { 1e-6, '(N*m)*(s/rad)^2'};    % Drag coefficient
+    end
+
+    variables
+        t  = { 0, 'N*m' };      % Torque on the shaft
+        w  = { 0, 'rad/s'};     % Rotational velocity of the shaft
+    end
+
+    branches
+        t: R.t -> C.t;          % Through variable t from node R to node C
+    end
+
+    equations
+        assert(Cd>=0)
+        w == R.w-C.w;           % Across variable w from R to C
+        t == sign(w)*Cd*w^2;
+    end
+
+end

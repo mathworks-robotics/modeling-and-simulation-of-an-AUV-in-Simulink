@@ -1,0 +1,18 @@
+# General folders #
+
+# Specific folders #
+
+# Specific files #
+
+# Simulink utility files #
+*.autosave
+*.asv
+*.r2019a
+*.r2019b
+*.r2020a
+*_ert_rtw/
+*_grt_rtw/
+*.slxc
+
+# Other files #
+~*.docx

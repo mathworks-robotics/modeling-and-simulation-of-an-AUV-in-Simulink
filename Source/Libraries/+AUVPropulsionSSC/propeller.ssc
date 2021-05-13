@@ -1,0 +1,88 @@
+component propeller
+% Propeller
+% This block represents a model of a propeller.
+%
+% The block calculates the the thrust force and the drag torque of
+% a propeller using thrust and torque coefficients calculated as a
+% function of the vehicle's advance speed ratio.
+% It uses cubic polynomial fits for kt and kq extracted from the
+% Wageningen B-series Propeller Efficiency curves.
+% The input Va is the inflow advance velocity and the output Th is
+% the propeller thrust.
+% Connections R and C are mechanical rotational conserving ports, 
+% with R representing the rod, while C is associated with the
+% case. The block positive direction is from port R to port C. 
+
+% Copyright 2020 The MathWorks, Inc.
+
+    inputs
+        Va = { 0, 'm/s'};   % Va:left
+    end
+        
+    outputs
+        Thrust = { 0, 'N'}; % Th:right
+    end
+    
+    nodes
+        R = foundation.mechanical.rotational.rotational; % R:left
+        C = foundation.mechanical.rotational.rotational; % C:right
+    end
+    
+    parameters
+        D      = { 0.2,          'm'}; % Propeller diameter
+        ktPoly = {[0,0,0,0.001], '1'}; % kt cubic fit coefficients 
+        kqPoly = {[0,0,0,0.001], '1'}; % kq cubic fit coefficients
+        rho    = { 1000,    'kg/m^3'}; % Fluid density
+    end
+
+    variables
+        w      = { 0, 'rad/s'};        % Rotational velocity of the shaft
+        t      = { 0, 'N*m' };         % Torque on the shaft
+    end
+
+    parameters (Access=private)
+        J_max  = {1.6, '1'};           % Maximum advance velocity ratio
+    end
+    
+    branches
+        t: R.t -> C.t;  % Through variable t from node R to node C
+    end
+    
+    equations
+        % Parameter range checking
+        assert(D   > 0)
+        assert(rho > 0)
+        assert(J_max > 0)
+        
+        let
+            % rotational speed in rev/sec
+            n = abs(w)/(2*pi);
+            
+            % advance speed ratio (protect for divide by zero)
+            J_val = if gt(n,0) , Va/(n*D) else 0 end;
+            % Keep J inside the valid range [0... J_max]
+            J = if gt(J_val,J_max) , J_max else J_val end;
+            
+            % thrust coefficient (cubic polynomial fit)
+            k_t_val = ktPoly(1)*J^3+ktPoly(2)*J^2+ktPoly(3)*J+ktPoly(4);
+            % select positive range only for valid k_t
+            k_t = if gt(k_t_val,0) , k_t_val else 0 end;
+            
+            % torque coefficient (cubic polynomial fit)
+            k_q_val = kqPoly(1)*J^3+kqPoly(2)*J^2+kqPoly(3)*J+kqPoly(4);
+            % select positive range only for valid k_q
+            k_q = if gt(k_q_val,0) , k_q_val else 0 end;
+            
+        in
+            % Calculate angular speed
+            w == R.w-C.w; % Across variable w from R to C
+            
+            % Calculate propeller torque
+            t == sign(w)*k_q*rho*n^2*D^5;
+            
+            % Calculate propeller thrust
+            Thrust == sign(w)*k_t*rho*n^2*D^4;
+        end   
+    end
+
+end

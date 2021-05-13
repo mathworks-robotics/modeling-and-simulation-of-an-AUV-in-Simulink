@@ -1,0 +1,60 @@
+component simpleprop
+% Simple Propeller
+% This block represents a simple model of a propeller.
+%
+% The block calculates the drag torque and the thrust force of a
+% propeller using constant values for the thrust and torque coefficients
+% independent of the vehicle's advance speed.
+% THe output Th is the propeller thrust.
+% Connections R and C are mechanical rotational conserving ports, 
+% with R representing the rod, while C is associated with the
+% case. The block positive direction is from port R to port C. 
+
+% Copyright 2020 The MathWorks, Inc.
+        
+    outputs
+        Thrust = { 0, 'N'}; % Th:right
+    end
+    
+    nodes
+        R = foundation.mechanical.rotational.rotational; % R:left
+        C = foundation.mechanical.rotational.rotational; % C:right
+    end
+    
+    parameters
+        D   = { 0.2,   'm'};      % Propeller diameter
+        k_q = { 0.001, '1'};      % Propeller torque coefficient
+        k_t = { 0.001, '1'};      % Propeller thrust coefficient
+        rho = { 1000,  'kg/m^3'}; % Fluid density
+    end
+
+    variables
+        w   = { 0, 'rad/s'};      % Rotational velocity of the shaft
+        t   = { 0, 'N*m' };       % Torque on the shaft
+    end
+
+    branches
+        t: R.t -> C.t;      % Through variable t from node R to node C
+    end
+    
+    equations
+        % Parameter range checking
+        assert(D>0)
+        assert(rho>0)
+        assert(k_q>0)
+        assert(k_t>0)
+ 
+        let
+            % rev/sec
+            n = w/(2*pi);
+        in
+            % Calculate angular speed and torque on shaft
+            w == R.w-C.w; % Across variable w from R to C
+            % Calculate propeller torque
+            t == sign(n)*k_q*rho*n^2*D^5;
+            % Calculate propeller thrust
+            Thrust == sign(n)*k_t*rho*n^2*D^4;
+        end   
+    end
+
+end
