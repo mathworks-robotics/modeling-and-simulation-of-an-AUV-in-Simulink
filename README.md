@@ -19,3 +19,8 @@ This demonstration project covers a few sections of the entire development worfl
 **Requirements:**
 The examples in this demonstration project require MATLAB&reg; Release 2020b or later
 
+**Overall Workflow Webinar Recording**
+https://www.mathworks.com/videos/design-modeling-and-simulation-of-autonomous-underwater-vehicles-1619636864529.html
+
+**Deep Dive Video Series**
+https://www.mathworks.com/videos/series/auv-deep-dive.html
